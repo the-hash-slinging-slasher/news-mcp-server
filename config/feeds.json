@@ -1,0 +1,146 @@
+{
+  "rss_feeds": [
+    {
+      "name": "techcrunch",
+      "url": "https://techcrunch.com/feed/",
+      "refresh_interval_minutes": 30
+    },
+    {
+      "name": "arstechnica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "refresh_interval_minutes": 30
+    },
+    {
+      "name": "tldr-ai",
+      "url": "https://tldr.tech/api/rss/ai"
+    },
+    {
+      "name": "tldr-tech",
+      "url": "https://tldr.tech/api/rss/tech"
+    },
+    {
+      "name": "tldr-devops",
+      "url": "https://tldr.tech/api/rss/devops"
+    },
+    {
+      "name": "tldr-infosec",
+      "url": "https://tldr.tech/api/rss/infosec"
+    },
+    {
+      "name": "tldr-dev",
+      "url": "https://tldr.tech/api/rss/dev"
+    },
+    {
+      "name": "cloudflare-blog",
+      "url": "https://blog.cloudflare.com/rss"
+    },
+    {
+      "name": "simonwillison",
+      "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "name": "meta-engineering",
+      "url": "https://engineering.fb.com/feed/"
+    },
+    {
+      "name": "github-blog",
+      "url": "https://github.blog/feed/"
+    },
+    {
+      "name": "julia-evans",
+      "url": "https://jvns.ca/atom.xml"
+    },
+    {
+      "name": "dan-luu",
+      "url": "https://danluu.com/atom.xml"
+    },
+    {
+      "name": "martin-fowler",
+      "url": "https://martinfowler.com/feed.atom"
+    },
+    {
+      "name": "huggingface",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "aws-blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/"
+    },
+    {
+      "name": "krebs-security",
+      "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "name": "schneier-security",
+      "url": "https://www.schneier.com/blog/atom.xml"
+    },
+    {
+      "name": "talos-intelligence",
+      "url": "https://blog.talosintelligence.com/rss/"
+    },
+    {
+      "name": "lobsters",
+      "url": "https://lobste.rs/rss"
+    },
+    {
+      "name": "joel-spolsky",
+      "url": "https://www.joelonsoftware.com/feed/"
+    },
+    {
+      "name": "pragmatic-engineer",
+      "url": "https://blog.pragmaticengineer.com/rss/"
+    },
+    {
+      "name": "netflix-tech",
+      "url": "https://medium.com/feed/netflix-techblog"
+    },
+    {
+      "name": "openai-blog",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "anthropic-news",
+      "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+    },
+    {
+      "name": "google-ai",
+      "url": "http://feeds.feedburner.com/blogspot/gJZg"
+    },
+    {
+      "name": "xe-iaso",
+      "url": "https://xeiaso.net/blog.rss"
+    },
+    {
+      "name": "brandur",
+      "url": "https://brandur.org/articles.atom"
+    },
+    {
+      "name": "lwn",
+      "url": "https://lwn.net/headlines/rss"
+    },
+    {
+      "name": "papers-we-love",
+      "url": "https://paperswelove.org/feed.xml"
+    },
+    {
+      "name": "haveibeenpwned",
+      "url": "https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches"
+    },
+    {
+      "name": "bleepingcomputer",
+      "url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "name": "msrc",
+      "url": "https://msrc.microsoft.com/blog/feed"
+    },
+    {
+      "name": "google-project-zero",
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default"
+    },
+    {
+      "name": "github-security-lab",
+      "url": "https://securitylab.github.com/feed.xml"
+    }
+  ]
+}

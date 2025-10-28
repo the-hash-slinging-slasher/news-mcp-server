@@ -1,0 +1,19 @@
+{
+  "rss_feeds": [
+    {
+      "name": "techcrunch",
+      "url": "https://techcrunch.com/feed/",
+      "refresh_interval_minutes": 30
+    },
+    {
+      "name": "hackernoon",
+      "url": "https://hackernoon.com/feed",
+      "refresh_interval_minutes": 30
+    },
+    {
+      "name": "arstechnica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "refresh_interval_minutes": 30
+    }
+  ]
+}

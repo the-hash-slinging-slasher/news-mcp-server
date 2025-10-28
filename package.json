@@ -1,0 +1,29 @@
+{
+  "name": "news-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for aggregating news from Hacker News, RSS feeds, Twitter, and Bluesky",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "news-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": ["mcp", "news", "rss", "hackernews", "aggregator"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "better-sqlite3": "^11.7.0",
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,79 @@
+MORNING NEWS BRIEFING - OCTOBER 28, 2025
+
+Good morning. Here's your technology news briefing for the past 24 hours.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CRITICAL SECURITY ALERTS
+
+Starting with urgent security news: CISA has ordered federal agencies to patch a critical Windows Server Update Services vulnerability by November 14th. CVE-2025-59287 allows attackers to gain SYSTEM-level privileges without authentication and is actively being exploited in the wild. Over 2,800 WSUS instances remain exposed online with unclear patch status.
+
+QNAP has issued warnings about the same critical ASP.NET Core flaw affecting their NetBak PC Agent backup software. This vulnerability enables HTTP request smuggling that could allow credential hijacking and security bypass. Users should either reinstall the software or manually update ASP.NET Core.
+
+An Italian spyware vendor, Memento Labs, has been linked to Chrome zero-day attacks earlier this year. Operation ForumTroll targeted Russian organizations through phishing emails that exploited CVE-2025-2783, delivering malware including the LeetAgent spyware and Dante commercial surveillance tools. The company emerged after InTheCyber Group acquired the infamous Hacking Team in 2019.
+
+X is requiring users to re-enroll their security keys and passkeys by November 10th due to the migration from twitter.com to x.com. Users who don't re-enroll will be locked out of their accounts until they update their authentication methods.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AI AND TECHNOLOGY DEVELOPMENTS
+
+Anthropic has launched Claude for Excel in beta, integrating AI capabilities directly into spreadsheet workflows. The system can analyze complex formulas, debug errors, test scenarios, and build financial models while maintaining formula integrity. Currently available to 1,000 Max, Team, and Enterprise customers through a waitlist.
+
+OpenAI revealed sobering statistics: over 1 million people weekly discuss suicide-related thoughts with ChatGPT, representing 0.15% of their 800 million weekly users. The company worked with 170+ mental health experts to improve responses, with GPT-5 achieving 91% compliance with safety guidelines, up from 77% in previous versions.
+
+A thought-provoking article argues that while AI can code, it can't build software. The author notes that LLMs excel at generating code for isolated problems but struggle with the holistic challenges of production-ready applications, requiring technical cofounders to transform AI prototypes into real products.
+
+Researchers found that AI-powered search engines increasingly rely on "less popular" sources compared to traditional search engines, representing a significant shift in how information surfaces online.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPEN SOURCE AND FUNDING
+
+The Python Software Foundation made headlines by withdrawing from a $1.5 million National Science Foundation grant. The funding required the PSF to cease all diversity, equity, and inclusion programs organization-wide, not just for the funded project. The PSF stated that accepting such terms would conflict with their mission to support "a diverse and international community." The grant was intended for PyPI security improvements including automated malware detection systems.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEVELOPER TOOLS AND FRAMEWORKS
+
+Cisco released MCP Scanner, an open-source security tool that analyzes Model Context Protocol servers for vulnerabilities using a combination of API analysis, YARA rules, and LLM evaluation. The tool operates as both a CLI and REST API server.
+
+Lotas launched Erdos, an open-source AI-powered data science IDE that integrates with Jupyter notebooks under an AGPLv3 license. The framework is free with charges only for AI assistant usage, and supports Python, R, and Julia.
+
+JetKVM launched an open-source KVM-over-IP solution delivering 1080p video at 60 FPS with 30-60 millisecond latency, enabling remote computer control even behind restrictive NAT environments.
+
+A new tool called fnox has been released as a secret manager that pairs well with mise, gaining traction on Hacker News with 109 points.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INTERNET INFRASTRUCTURE
+
+Cloudflare provided extensive updates to their Radar platform, which now tracks post-quantum encryption adoption - surging from under 3% in early 2024 to over 47% as major browsers activated support by default. The platform added Certificate Transparency monitoring, AI crawler tracking with crawl-to-refer ratio metrics, and BGP route visualization tools to help network operators prevent outages.
+
+AWS experienced a significant DynamoDB outage in the US-East-1 region this week affecting multiple services. The company also announced new features including RTB Fabric, an updated Customer Carbon Footprint Tool, and a new Secret-West region expansion.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TECHNICAL DEEP DIVES
+
+A 2013 article resurfaced reminding developers to avoid scheduling cron jobs between 2:00-3:00 AM due to daylight saving time complications that can cause jobs to execute repeatedly - sometimes once per second.
+
+On the computer science front, researchers continue investigating why the sixth busy beaver number remains elusive. A mysterious Turing machine called "Antihydra" has been simulated beyond 270 billion steps without determining if it halts. The problem connects to the unsolved Collatz conjecture, suggesting that solving BB(6) requires entirely new mathematical techniques.
+
+Easy RISC-V, an interactive tutorial for learning RISC-V assembly programming, has gained attention with its hands-on approach covering 45 core instructions through an embedded emulator.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+AND FINALLY
+
+A lock company learned about the Streisand Effect after suing a YouTuber who demonstrated shimming a $130 lock. The video drew 10 million views, and the lawsuit appears to have backfired spectacularly.
+
+Cloudflare announced plans to hire 1,111 interns in 2026, equivalent to 25% of their full-time workforce, providing opportunities to develop and ship working code in production.
+
+And in Formula 1 news, Mexico City's high-altitude race crowned a new championship leader this weekend.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+That wraps up your morning technology briefing for October 28, 2025. Major themes today include critical security patches requiring immediate attention, AI safety improvements, open-source funding controversies, and continued evolution of internet infrastructure monitoring.
+
+Stay informed. Stay secure.

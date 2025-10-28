@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__newsfeed__add_rss_feed",
+      "mcp__newsfeed__remove_rss_feed",
+      "mcp__newsfeed__refresh_cache",
+      "mcp__newsfeed__get_feed",
+      "WebFetch(domain:blog.cloudflare.com)",
+      "WebFetch(domain:www.claude.com)",
+      "WebFetch(domain:www.lotas.ai)",
+      "WebFetch(domain:arstechnica.com)",
+      "WebFetch(domain:www.bleepingcomputer.com)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:pyfound.blogspot.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.endpointdev.com)",
+      "WebFetch(domain:jetkvm.com)",
+      "WebFetch(domain:lwn.net)",
+      "WebFetch(domain:techcrunch.com)",
+      "WebFetch(domain:dramforever.github.io)",
+      "WebFetch(domain:benbrubaker.com)",
+      "WebFetch(domain:bytesauna.com)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
